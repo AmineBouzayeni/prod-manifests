@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: worker
-        image: europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/worker:0.0.1-dev-b846405c62a6678b5d9cc197b43ec71fae8bf633
+europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/worker:v0.0.1-dev-4bb7c72f0bdbc3a5ada14678d8d72e9535068005
         resources:
           requests:
             cpu: "200m"
