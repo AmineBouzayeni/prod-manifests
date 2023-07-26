@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: redis
-europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/redis:v0.0.1-dev-4bb7c72f0bdbc3a5ada14678d8d72e9535068005
+        image: europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/redis:v0.0.1-dev-4bb7c72f0bdbc3a5ada14678d8d72e9535068005
         ports:
         - containerPort: 6379
         resources:
