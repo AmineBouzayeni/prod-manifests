@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: rng
-        image: europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/rng:v0.0.1
+        image: europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/rng:v0.0.2-dev
         ports:
         - containerPort: 80
         resources:

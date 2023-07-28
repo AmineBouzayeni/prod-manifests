@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/webui:v0.0.1
+        image: europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/webui:v0.0.2-dev
         ports:
         - containerPort: 80
         resources:

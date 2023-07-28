@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: hasher
-        image: europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/hasher:v0.0.1
+        image: europe-west1-docker.pkg.dev/teolia-school-devops/teolia-school-amineb/hasher:v0.0.2-dev
         ports:
         - containerPort: 80
         resources:
